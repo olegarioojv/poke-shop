@@ -1,9 +1,7 @@
 <?php
 
-    require '../../../vendor/autoload.php';
-    
-
 ?>
+
 <!DOCTYPE html>
 <html lang="PT-br">
 <head>
@@ -12,6 +10,7 @@
     <title>POKESHOP</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <header>
+        <h1>Bem-vindo ao POKESHOP</h1>
+        <!-- Adicione mais elementos do cabeçalho aqui -->
+    </header>

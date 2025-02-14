@@ -1,0 +1,15 @@
+{
+    "name": "olegario.jv/poke-shop",
+    "autoload": {
+        "psr-4": {
+            "OlegarioJv\\poke-shop\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Victor",
+            "email": "olegarioo.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
