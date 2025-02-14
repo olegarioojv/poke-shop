@@ -1,0 +1,32 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    font-family: "Jersey 20", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Menu */
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C08CC1; /* Cor de fundo do menu */
+}
+
+.menu-titulo {
+    display: flex;
+    font-weight: bold;  
+    font-size: 30px;
+    align-items: center;
+    text-decoration: none;
+    color: #000000; /* Cor do texto */
+}
+
+.menu-img {
+    padding: 10px 25px;
+}

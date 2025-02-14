@@ -2,7 +2,7 @@
     "name": "olegario.jv/poke-shop",
     "autoload": {
         "psr-4": {
-            "OlegarioJv\\poke-shop\\": "app/"
+            "OlegarioJv\\PokeShop\\": "app/"
         }
     },
     "authors": [
