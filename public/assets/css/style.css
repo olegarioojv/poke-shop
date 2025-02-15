@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    background-color: #2C282C; /* Cor de fundo do site */
 }
 
 header {
@@ -15,18 +16,43 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
     background-color: #C08CC1; /* Cor de fundo do menu */
+    border-bottom: 1px solid #e7e7e7; /* Linha inferior */
 }
 
 .menu-titulo {
     display: flex;
-    font-weight: bold;  
-    font-size: 30px;
     align-items: center;
     text-decoration: none;
     color: #000000; /* Cor do texto */
+    font-size: 30px; /* Tamanho do texto */
+    font-weight: bold; /* Peso do texto */
 }
 
 .menu-img {
-    padding: 10px 25px;
+    margin-right: 20px;
+}
+
+.menu-titulo:hover {
+    color: #2C282C; /* Cor do texto ao passar o mouse */
+}
+
+.navbar-nav .nav-item .btn {
+    margin-left: 10px;
+    border: 1px solid #2C282C;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-item .btn:hover {
+    background-color: #2C282C;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item .btn i {
+    margin-right: 5px;
 }
