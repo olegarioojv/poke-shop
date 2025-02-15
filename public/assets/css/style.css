@@ -1,7 +1,11 @@
-body {
+* {
     padding: 0px;
     margin: 0px;
-    background-color: #2C282C; /* Cor de fundo do site */
+}
+
+body {
+    background-color: #2C282C !important; /* Cor de fundo do site */
+    
 }
 
 header {
@@ -18,7 +22,6 @@ header {
     align-items: center;
     padding: 10px 20px;
     background-color: #C08CC1; /* Cor de fundo do menu */
-    border-bottom: 1px solid #e7e7e7; /* Linha inferior */
 }
 
 .menu-titulo {
@@ -55,4 +58,41 @@ header {
 
 .navbar-nav .nav-item .btn i {
     margin-right: 5px;
+}
+
+/* Menu Lateral */
+
+.menu-lateral {
+    position: fixed;
+    top: 70px;
+    width: 250px;
+    background-color: #2C282C; /* Cor de fundo do menu lateral */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    color: #ffffff; /* Cor do texto */
+}
+
+.menu-lateral h3 {
+    margin-top: 0;
+   
+}
+
+.category-list {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+.category-list li {
+    margin: 10px 0; /* Espaçamento entre os itens da lista */
+}
+
+.category-list li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #ffffff; /* Cor do texto dos links */
+    font-size: 18px; /* Tamanho do texto dos links */
+    transition: color 0.3s ease; /* Transição suave para a cor do texto */
+}
+
+.category-list li a:hover {
+    color: #C08CC1; /* Cor do texto ao passar o mouse */
 }
